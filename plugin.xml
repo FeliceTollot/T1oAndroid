@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="unipi-felicetollot-t1lli" version="0.2.3">
+  <name>cordova-t1oep-plugin</name>
+  <description>
+    An etherogeneus module to connect an etherogeneus wide set of
+    devices to the T1 network.
+  </description>
+  <license>MIT</license>
+  <keywords>cordova, T1, Android, iOS, Desktop</keywords>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0" />
+  </engines>
+
+  <js-module src="www/t1lli.js" name="T1LLI">
+    <clobbers target="T1LLI" />
+  </js-module>
+
+  <platform name="android">
+    <config-file target="config.xml" parent="/*">
+      <feature name="T1-LLI">
+        <param name="android-package" value="it.unipi.felicetollot.T1LLI" />
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/T1LLI.java" target-dir="src/it/unipi/felicetollot/" />
+  </platform>
+
+</plugin>
