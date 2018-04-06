@@ -1,5 +1,5 @@
 {
-  "name": "t1-lli",
+  "name": "cordova-eicom-t1lli-plugin",
   "version": "1.0.0",
   "description": "An heterogeneous module to connect a wide heterogeneous set of devices to the T1 network.",
     "cordova": {
