@@ -8,7 +8,7 @@
             "android",
             "ios"
         ]
-    }
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FeliceTollot/T1oAndroid.git"
