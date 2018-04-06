@@ -1,0 +1,29 @@
+{
+  "name": "t1-lli",
+  "version": "1.0.0",
+  "description": "An heterogeneous module to connect a wide heterogeneous set of devices to the T1 network.",
+    "cordova": {
+        "id": "it.unipi.felicetollot.eicom.t1lli"
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeliceTollot/T1oAndroid.git"
+  },
+  "keywords": [
+      "cordova-android",
+      "cordova-ios",
+      "eicom",
+      "t1",
+      "ecosystem:cordova"
+  ],
+  "author": "FeliceTollot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FeliceTollot/T1oAndroid/issues"
+  },
+  "homepage": "https://github.com/FeliceTollot/T1oAndroid#readme"
+}
